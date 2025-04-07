@@ -321,13 +321,6 @@
 	--button-background:#9146ff;
 }
 
-/* Unsplash */
-.button-unsplash {
-	--button-text:#000000;
-	--button-background:#ffffff;
-	--button-border:1px solid #212121;
-}
-
 /* Venmo */
 .button-venmo {
 	--button-text:#ffffff;
