@@ -39,6 +39,7 @@
 	width:100%;
 	float:center;
 	box-sizing:border-box;
+	margin-bottom: 40px;
 }
 /* For devices larger than 400px */
   @media (min-width:25rem) {            /* 400px */
