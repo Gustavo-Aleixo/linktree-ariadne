@@ -8,7 +8,7 @@ function copyEmail(event) {
   const originalText = button.textContent.trim();
 
   // 📋 Copiar e-mail pro clipboard
-  const email = button.getAttribute("data-email"); // <- você define esse atributo no HTML
+  const email = button.getAttribute("data"); // <- você define esse atributo no HTML
   if (email) {
     navigator.clipboard.writeText(email).catch((err) => {
       console.error("Erro ao copiar:", err);
